@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace task3UP
 {
@@ -25,8 +21,7 @@ namespace task3UP
         }
         static double wwww()
         {
-            while (true)
-            {
+            while (true){
                 double x;
                 if (double.TryParse(Console.ReadLine(), out x))
                     return x;
